@@ -1,0 +1,72 @@
+## ✨ Features
+
+### User Management
+- Role-based access control (Producer, Recycler, Logistics Provider, Regulator)
+- MetaMask wallet integration for secure authentication
+- Profile management with role-specific permissions
+
+### Producer Portal
+- Log new eWaste items with detailed specifications
+- Set recycling deadlines and requirements
+- Track waste items through the entire recycling process
+- View historical waste production and recycling statistics
+
+### Logistics Management
+- Update shipment status and location in real-time
+- Document chain of custody for waste items
+- Confirm pickups and deliveries with blockchain verification
+- View optimized routes and pending shipments
+
+### Recycler Operations
+- Confirm receipt of eWaste shipments
+- Document recycling methods and material recovery
+- Update recycling progress with evidence
+- Manage recycling inventory and processing capacity
+
+### Regulatory Compliance
+- Audit waste management processes
+- Verify compliance with environmental regulations
+- Flag non-compliant activities with blockchain proof
+- Generate compliance reports and certifications
+
+### Analytics Dashboard
+- Real-time statistics on waste processing
+- Environmental impact metrics
+- Compliance performance indicators
+- Material recovery analytics
+
+## 🚀 Quick Start
+
+Follow these instructions to set up and run the project locally.
+
+
+
+
+### Smart Contracts
+
+The system consists of five interconnected smart contracts:
+
+1. **UserManagement.sol**
+   - Handles user registration and role assignment
+   - Validates user permissions for operations
+   - Manages user profiles and authentication
+
+2. **eWasteTracking.sol**
+   - Tracks the core waste item data
+   - Manages waste logging by producers
+   - Maintains the current status of each waste item
+
+3. **LogisticsTracking.sol**
+   - Manages shipment data and status updates
+   - Tracks chain of custody of waste items
+   - Records transportation details and timing
+
+4. **RecyclingManagement.sol**
+   - Documents recycling processes and methods
+   - Records material recovery and disposal
+   - Verifies completion of recycling activities
+
+5. **ComplianceAudit.sol**
+   - Enables regulatory audits and verification
+   - Flags non-compliant activities
+   - Provides regulatory reporting capabilities
