@@ -1,2 +1,0 @@
-recycler : add method of recycler.(add input text not predefined)
-block accounts for multiple roles
